@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    
+</head>
+<body>
+    <h1>DOM - document object model</h1>
+    <p>A Sigla DOM significa <strong>Document Object Model</strong>, que em português significa Modelo de Documento
+        por Objetos. Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web.</p>
+
+        <p>Giovanna Castro</p>
+
+        <div id="mensagem">
+            Em javaScript, var,let e const são palavras-chave usadas para declarar variaveis,mas possuem diferenças importantes em relação ao escopo e á mutabilidade.
+        </div>
+
+
+        <script>
+            // window.document.write('olá mundo');
+            // window.document.write(window.document.charset);
+            // window.document.write(window.navigator.appName);
+            // document.write(window.document.URL);
+
+            var msg =  window.document.getElementsByTagName('p')[0];
+            msg.style.color="blue"
+
+            var corpo = window.document.body;
+            corpo.style.background="red"
+            
+        </script>
+    
+</body>
+</html>
